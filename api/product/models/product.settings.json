@@ -12,10 +12,10 @@
     "Name": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "richtext"
     },
-    "MainPhoto": {
+    "mainPhoto": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -41,6 +41,15 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "products"
+    },
+    "extraInfo": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "string"
     }
   }
 }
